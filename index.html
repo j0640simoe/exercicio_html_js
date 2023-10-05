@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML no JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div>
+        <h1>Formulário de validação</h1>
+            <form id="form-number">
+                <label for="campoA"><b>Campo A:</b></label>
+                <input type="number" id="campoA" name="campoA">
+                <div class="error-message">Campo B deve ser maior que o campo A </div>
+                
+                <label for="campoB"><b>Campo B:</b></label>
+                <input type="number" id="campoB" name="campoB">
+                <input type="submit" value="Submeter">
+            </form>
+                <div class="success-message"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
